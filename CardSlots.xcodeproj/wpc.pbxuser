@@ -1,0 +1,238 @@
+// !$*UTF8*$!
+{
+	172754BD107597F200D0347B /* Unit Tests */ = {
+		activeExec = 0;
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = FFE76FF5112ADBCE00782F47 /* CardSlots */;
+		activeTarget = 8D1107260486CEB800E47090 /* CardSlots */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* CardSlots */,
+		);
+		codeSenseManager = FFE77003112ADBEE00782F47 /* Code sense */;
+		executables = (
+			FFE76FF5112ADBCE00782F47 /* CardSlots */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					587,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 288862005;
+			PBXWorkspaceStateSaveDate = 288862005;
+		};
+		perUserProjectItems = {
+			FFB33AFC1130311B00CB2B57 /* PlistBookmark */ = FFB33AFC1130311B00CB2B57 /* PlistBookmark */;
+			FFC6956911381B15001262B6 /* PBXTextBookmark */ = FFC6956911381B15001262B6 /* PBXTextBookmark */;
+			FFC6956A11381B15001262B6 /* PBXTextBookmark */ = FFC6956A11381B15001262B6 /* PBXTextBookmark */;
+			FFC69592113A6966001262B6 /* PBXTextBookmark */ = FFC69592113A6966001262B6 /* PBXTextBookmark */;
+			FFC69593113A6966001262B6 /* PBXTextBookmark */ = FFC69593113A6966001262B6 /* PBXTextBookmark */;
+			FFC69594113A6966001262B6 /* PBXTextBookmark */ = FFC69594113A6966001262B6 /* PBXTextBookmark */;
+			FFC69595113A6966001262B6 /* PBXTextBookmark */ = FFC69595113A6966001262B6 /* PBXTextBookmark */;
+			FFFFEEE8112F9533002B9383 /* PBXTextBookmark */ = FFFFEEE8112F9533002B9383 /* PBXTextBookmark */;
+		};
+		sourceControlManager = FFE77002112ADBEE00782F47 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	4D1A51A110A4FF5D0046A98A /* Compile */ = {
+		activeExec = 0;
+	};
+	4D1A51A510A4FF640046A98A /* Embed */ = {
+		activeExec = 0;
+	};
+	4DE339F60D74FCDD00ADB6EE /* rb_main.rb */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {884, 476}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 610}";
+		};
+	};
+	8D1107260486CEB800E47090 /* CardSlots */ = {
+		activeExec = 0;
+		executables = (
+			FFE76FF5112ADBCE00782F47 /* CardSlots */,
+		);
+	};
+	FF597D13112D75F0004605B2 /* Card.rb */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {765, 474}}";
+			sepNavSelRange = "{189, 0}";
+			sepNavVisRange = "{0, 227}";
+		};
+	};
+	FFB33AFC1130311B00CB2B57 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/wpc/code/CardSlots/Info.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	FFC6956911381B15001262B6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FF597D13112D75F0004605B2 /* Card.rb */;
+		name = "Card.rb: 8";
+		rLen = 0;
+		rLoc = 189;
+		rType = 0;
+		vrLen = 227;
+		vrLoc = 0;
+	};
+	FFC6956A11381B15001262B6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FFFFEE25112D765B002B9383 /* CardView.rb */;
+		name = "CardView.rb: 14";
+		rLen = 0;
+		rLoc = 386;
+		rType = 0;
+		vrLen = 511;
+		vrLoc = 0;
+	};
+	FFC69592113A6966001262B6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FFFFEE3C112E1044002B9383 /* CardLoader.rb */;
+		name = "CardLoader.rb: 15";
+		rLen = 0;
+		rLoc = 238;
+		rType = 0;
+		vrLen = 436;
+		vrLoc = 16;
+	};
+	FFC69593113A6966001262B6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FFE77009112ADD6E00782F47 /* CardSlotsController.rb */;
+		name = "CardSlotsController.rb: 12";
+		rLen = 10;
+		rLoc = 256;
+		rType = 0;
+		vrLen = 283;
+		vrLoc = 0;
+	};
+	FFC69594113A6966001262B6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FFE77006112ADC7E00782F47 /* SlotView.rb */;
+		name = "SlotView.rb: 16";
+		rLen = 0;
+		rLoc = 299;
+		rType = 0;
+		vrLen = 545;
+		vrLoc = 1015;
+	};
+	FFC69595113A6966001262B6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FFFFEE25112D765B002B9383 /* CardView.rb */;
+		name = "CardView.rb: 10";
+		rLen = 10;
+		rLoc = 187;
+		rType = 0;
+		vrLen = 511;
+		vrLoc = 0;
+	};
+	FFE76FF5112ADBCE00782F47 /* CardSlots */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = CardSlots;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	FFE77002112ADBEE00782F47 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	FFE77003112ADBEE00782F47 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	FFE77006112ADC7E00782F47 /* SlotView.rb */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {765, 1444}}";
+			sepNavSelRange = "{299, 0}";
+			sepNavVisRange = "{1015, 545}";
+			sepNavWindowFrame = "{{15, 45}, {1565, 833}}";
+		};
+	};
+	FFE77009112ADD6E00782F47 /* CardSlotsController.rb */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {765, 474}}";
+			sepNavSelRange = "{256, 10}";
+			sepNavVisRange = "{0, 283}";
+			sepNavWindowFrame = "{{15, 45}, {1565, 833}}";
+		};
+	};
+	FFFFEE25112D765B002B9383 /* CardView.rb */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {765, 497}}";
+			sepNavSelRange = "{187, 10}";
+			sepNavVisRange = "{0, 511}";
+		};
+	};
+	FFFFEE3C112E1044002B9383 /* CardLoader.rb */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {765, 532}}";
+			sepNavSelRange = "{238, 0}";
+			sepNavVisRange = "{16, 436}";
+		};
+	};
+	FFFFEEE8112F9533002B9383 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4DE339F60D74FCDD00ADB6EE /* rb_main.rb */;
+		name = "rb_main.rb: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 610;
+		vrLoc = 0;
+	};
+}
