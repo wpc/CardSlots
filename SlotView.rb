@@ -28,15 +28,14 @@ class SlotView < NSView
 	def	performDragOperation(sender)
 		cardLoader = cardLoaderFromPasteboard(sender.draggingPasteboard)
 		
-		cardLoader.beforeLoad do
-			self.state = :loading
-			spinner.hidden = false
-			spinner.startAnimation(self)
-			spinner.display
-			setNeedsDisplay(true)
-		end
-		
-		cardLoader.afterLoaded do |card|
+        self.state = :loading
+        spinner.hidden = false
+        spinner.startAnimation(self)
+        spinner.display
+        setNeedsDisplay(true)
+            
+		cardLoader.load do |card|
+            puts "card = #{card}"
 			spinner.hidden = true
 			spinner.stopAnimation(self)
 			cardview = CardView.alloc.initWithFrame(bounds)
@@ -44,9 +43,7 @@ class SlotView < NSView
 			addSubview(cardview)
 			self.state = :loaded
 			setNeedsDisplay(true)
-		end
-		
-		cardLoader.load
+        end
 	rescue  => e
 		puts "#{e.message}"
 		puts e.backtrace

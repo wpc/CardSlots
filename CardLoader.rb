@@ -9,20 +9,23 @@ class CardLoader
 		@url = url
 	end
 	
-	def	beforeLoad(&block)
-		@beforeLoad = Proc.new(&block)
-	end
-	
-	def	afterLoaded(&block)
-		@afterLoaded = Proc.new(&block)
-	end
-	
-	def	load
-		@beforeLoad.call if @beforeLoad
+	def	load(&block)
 		Thread.new do
-			puts "loading"
-			sleep 2
-			@afterLoaded.call(Card.new) if @afterLoaded
+			puts "loading #{@url}"
+            begin
+                yield(load_card)
+            rescue => e
+                p e
+            end
 		end
 	end
+    
+    private
+    def load_card
+        sleep 2
+        card = Card.new
+        card.name = "User can move the hightlight on droplist via arrow keys"
+        card.number = "22"
+        card
+    end 
 end
