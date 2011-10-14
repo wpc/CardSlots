@@ -51,9 +51,9 @@
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		D66007B31447EE7C00039A36 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D66007B21447EE7C00039A36 /* WebKit.framework */; };
 		D66007B51447F2C500039A36 /* HttpClient.rb in Resources */ = {isa = PBXBuildFile; fileRef = D66007B41447F2C500039A36 /* HttpClient.rb */; };
+		D66007E51448103000039A36 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = D66007E41448103000039A36 /* AppDelegate.rb */; };
 		FF597D14112D75F0004605B2 /* Card.rb in Resources */ = {isa = PBXBuildFile; fileRef = FF597D13112D75F0004605B2 /* Card.rb */; };
 		FFE77007112ADC7E00782F47 /* SlotView.rb in Resources */ = {isa = PBXBuildFile; fileRef = FFE77006112ADC7E00782F47 /* SlotView.rb */; };
-		FFE7700A112ADD6E00782F47 /* CardSlotsController.rb in Resources */ = {isa = PBXBuildFile; fileRef = FFE77009112ADD6E00782F47 /* CardSlotsController.rb */; };
 		FFFFEE26112D765B002B9383 /* CardView.rb in Resources */ = {isa = PBXBuildFile; fileRef = FFFFEE25112D765B002B9383 /* CardView.rb */; };
 		FFFFEE3D112E1044002B9383 /* CardLoader.rb in Resources */ = {isa = PBXBuildFile; fileRef = FFFFEE3C112E1044002B9383 /* CardLoader.rb */; };
 /* End PBXBuildFile section */
@@ -86,9 +86,9 @@
 		8D1107320486CEB800E47090 /* CardSlots.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardSlots.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D66007B21447EE7C00039A36 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = ../../../../System/Library/Frameworks/WebKit.framework; sourceTree = "<group>"; };
 		D66007B41447F2C500039A36 /* HttpClient.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = HttpClient.rb; sourceTree = "<group>"; };
+		D66007E41448103000039A36 /* AppDelegate.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
 		FF597D13112D75F0004605B2 /* Card.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = Card.rb; sourceTree = "<group>"; };
 		FFE77006112ADC7E00782F47 /* SlotView.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = SlotView.rb; sourceTree = "<group>"; };
-		FFE77009112ADD6E00782F47 /* CardSlotsController.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = CardSlotsController.rb; sourceTree = "<group>"; };
 		FFFFEE25112D765B002B9383 /* CardView.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = CardView.rb; sourceTree = "<group>"; };
 		FFFFEE3C112E1044002B9383 /* CardLoader.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = CardLoader.rb; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -111,11 +111,11 @@
 			isa = PBXGroup;
 			children = (
 				FFE77006112ADC7E00782F47 /* SlotView.rb */,
-				FFE77009112ADD6E00782F47 /* CardSlotsController.rb */,
 				FF597D13112D75F0004605B2 /* Card.rb */,
 				FFFFEE25112D765B002B9383 /* CardView.rb */,
 				FFFFEE3C112E1044002B9383 /* CardLoader.rb */,
 				D66007B41447F2C500039A36 /* HttpClient.rb */,
+				D66007E41448103000039A36 /* AppDelegate.rb */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -253,11 +253,11 @@
 				4DE339F70D74FCDD00ADB6EE /* rb_main.rb in Resources */,
 				2BFA9DA710CDF852007972A1 /* MainMenu.xib in Resources */,
 				FFE77007112ADC7E00782F47 /* SlotView.rb in Resources */,
-				FFE7700A112ADD6E00782F47 /* CardSlotsController.rb in Resources */,
 				FF597D14112D75F0004605B2 /* Card.rb in Resources */,
 				FFFFEE26112D765B002B9383 /* CardView.rb in Resources */,
 				FFFFEE3D112E1044002B9383 /* CardLoader.rb in Resources */,
 				D66007B51447F2C500039A36 /* HttpClient.rb in Resources */,
+				D66007E51448103000039A36 /* AppDelegate.rb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
