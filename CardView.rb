@@ -7,16 +7,13 @@ class CardView < NSView
 	
 	def	initWithFrame(rect)
 		super
-		@textView = NSTextView.alloc.initWithFrame(rect)
-		@textView.setBackgroundColor(NSColor.blackColor)
-		@textView.setTextColor(NSColor.greenColor)
-		@textView.setEditable(false)
-		@textView.setUsesFontPanel(false)
-		self.addSubview(@textView)
+		@webView = WebView.alloc.initWithFrame(rect)
+		self.addSubview(@webView)
 		self
 	end
 	
 	def	card=(card)
-		@textView.setString("##{card.number}  #{card.name}")
+        @webView.mainFrame.loadHTMLString("<strong>##{card.number}</strong> #{card.name}",
+                                          baseURL: nil)
 	end
 end

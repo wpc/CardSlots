@@ -33,8 +33,9 @@ class SlotView < NSView
         spinner.startAnimation(self)
         spinner.display
         setNeedsDisplay(true)
-            
-		CardLoader.new(self).load(card_url) do |card|
+        
+        card_loader = CardLoader.new(HttpClient.new(self))
+		card_loader.load(card_url) do |card|
 			spinner.hidden = true
 			spinner.stopAnimation(self)
 			cardview = CardView.alloc.initWithFrame(bounds)
