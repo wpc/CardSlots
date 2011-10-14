@@ -19,5 +19,11 @@ Dir.glob(File.join(dir_path, '*.{rb,rbo}')).map { |x| File.basename(x, File.extn
   end
 end
 
+require 'net/http'
+require 'net/https'
+require 'rubygems'
+require 'active_support'
+require 'active_support/core_ext'
+
 # Starting the Cocoa main loop.
 NSApplicationMain(0, nil)

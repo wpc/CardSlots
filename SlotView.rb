@@ -26,7 +26,7 @@ class SlotView < NSView
 	end
 	
 	def	performDragOperation(sender)
-		cardLoader = cardLoaderFromPasteboard(sender.draggingPasteboard)
+		card_url = cardUrlFromPastboard(sender.draggingPasteboard)
 		
         self.state = :loading
         spinner.hidden = false
@@ -34,8 +34,7 @@ class SlotView < NSView
         spinner.display
         setNeedsDisplay(true)
             
-		cardLoader.load do |card|
-            puts "card = #{card}"
+		CardLoader.new(self).load(card_url) do |card|
 			spinner.hidden = true
 			spinner.stopAnimation(self)
 			cardview = CardView.alloc.initWithFrame(bounds)
@@ -44,15 +43,20 @@ class SlotView < NSView
 			self.state = :loaded
 			setNeedsDisplay(true)
         end
+        
 	rescue  => e
 		puts "#{e.message}"
 		puts e.backtrace
 	end
+    
+    def ask_user_and_pass(url, &block)
+        yield("admin", "p")
+    end
 	
 	private
 	
-	def	cardLoaderFromPasteboard(pasteboard)
-		CardLoader.new(NSURL.URLFromPasteboard(pasteboard).absoluteString)
+	def	cardUrlFromPastboard(pasteboard)
+		NSURL.URLFromPasteboard(pasteboard).absoluteString
 	end
 	
 	def	printHint
