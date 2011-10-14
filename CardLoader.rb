@@ -11,7 +11,7 @@ class CardLoader
     
 	def	load(url, &block)
 		Thread.new do
-			puts "loading #{@url}"
+			puts "loading #{url}"
             begin
                 yield(load_card(url))
             rescue => e
